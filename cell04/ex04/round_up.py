@@ -1,4 +1,4 @@
+import math
+
 num = float(input("Give me a number: "))
-decimal = float(num) 
-integer = int(decimal) 
-print(integer) 
+print(math.ceil(num))
